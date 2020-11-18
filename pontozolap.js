@@ -4,3 +4,4 @@ function calcSum() {
   let sum = Number(num1) + Number(num2);
   document.getElementsByName("sum")[0].value = sum;
 }
+
