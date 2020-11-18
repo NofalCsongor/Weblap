@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pontozolap.css"></link> 
+</head>
+
+<body>
+ 
+<div class="scrollmenu">
+          <a href="weblap.html"><div class="gomb" class="active">Főoldal</div></a>
+          <a href="pontozolap.html"><div class="gomb">Pontozólap</div></a>
+          <a href="kapcsolat.html"><div class="gomb"> Kapcsolat</div></a>
+      </div>
+<div>
+        <h1>Pontozólap</h1><br>
+        <p>Az űrlap segítségével meg tudod nézni az összepontszámodat, és lent vannak a pontokhoz tartozó jegyek.<br></p>
+        <form>
+            Írásbeli pontok száma: <input type="number" name="num1" min="12" max="90"><br><br>
+            Szóbeli pontok száma : <input type="number" name="num2" min="3" max="60"><br><br>
+            Összesen: <input type="number" name="sum"><br><br>
+            <input type="button" value="Összead" onclick="calcSum()">
+        </form>
+      <div class="table">
+        <table>
+              <tr>
+                <th colspan="1">Osztályzatok</th>
+                  <br>
+                <th colspan="1">Ponthatárok</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>0-37</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>38-59</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>60-89</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>90-119</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>120-150</td>
+              </tr>
+          </table>
+        </div>
+          <br>
+    </div>
+
+
+
+<script src="pontozolap.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+	font-family: Segoe UI;
+	font-size: 12pt;
+	color: #00008b;
+	margin: 0px;
+	padding: 0px;
+    text-align: center;
+    color: black;
+    height: 100%;
+    background-image: url(t%C3%B6ri.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cim{
+    font-family: Aharoni;
+    font-variant: normal;
+    font-size: 80px;
+    color:black;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: -20px;
+    margin: 20px;
+
+    background-color: steelblue;
+    padding: 15px;
+
+}
+h1, h2
+{
+    text-align: center;
+}
+div.scrollmenu {
+  background-color: #08476B;
+  overflow: auto;
+  white-space: nowrap;
+      margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+#osztaly
+{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    padding-bottom: -20px;
+    display: inline-block;
+    font-size: 15px;
+    font-variant: normal;
+}
+.table
+{
+    margin-left: 38%;
+    margin-right: 20%;
+    border-radius: 50%;
+    font: bold;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+#kepek
+{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: lightblue;
+  color: black;
+      margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 50%;
+}
+.jumbotron
+{
+    font-size: 50px;
+}
+.container
+{
+    font-size: 50px;
+}
